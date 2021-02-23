@@ -1,0 +1,18 @@
+{
+    "name": "aspov/box",
+    "type": "project",
+    "authors": [
+        {
+            "name": "aspov",
+            "email": "asp73rus@mail.ru"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}

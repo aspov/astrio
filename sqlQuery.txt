@@ -1,0 +1,1 @@
+SELECT first_name, last_name, group_concat(child.name), model FROM worker INNER JOIN (child INNER JOIN car ON child.user_id = car.user_id) ON worker.id = child.user_id WHERE not car.model = '' or car.model is null GROUP BY first_name, last_name, model
